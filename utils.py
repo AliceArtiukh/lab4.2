@@ -11,3 +11,9 @@ def is_power_of_five(n):
         n = n // 5
         
     return n == 1
+
+def gsd(a,b):
+    while b:
+        a,b=b,a%b
+    return a
+
